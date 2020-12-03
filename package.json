@@ -1,0 +1,26 @@
+{
+  "name": "name.am-telegram-bot",
+  "version": "1.0.0",
+  "description": "name.am telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aram",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.15",
+    "node-telegram-bot-api": "^0.50.0",
+    "psl": "^1.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
